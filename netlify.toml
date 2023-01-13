@@ -76,4 +76,4 @@ GRAPH_OPTIONS = """
         """
 
 
-
+NETLIFY_NEXT_PLUGIN_SKIP= "TRUE"
