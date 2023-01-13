@@ -3,19 +3,15 @@ command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || tr
 publish = "public"
 
 [build.environment]
-# (Optional) Text in landing page button
-LANDING_BUTTON = "Click to steal some👆"
-# (Optional) Site description on landing page
-LANDING_DESCRIPTION = "I have nothing but intelligence."
-# (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
+LANDING_BUTTON = "進入我的大腦"
+LANDING_TITLE = "首頁標題"
+LANDING_DESCRIPTION = "首頁副標題"
+# 首面的筆記名稱
 LANDING_PAGE = "home"
-# (Optional) Site title on landing page
-LANDING_TITLE = "I love obsidian-zola! 💖"
 PYTHON_VERSION = "3.8"
-# (REQUIRED) Site repo URL
+# 你的Github儲存庫
 REPO_URL = "https://github.com/kimx/NetlifyObsidianLab"
-# (Optional) Site title in navbar
-SITE_TITLE = "Kimxinfo"
+SITE_TITLE = "網站標題"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = "Kimxinfo"
 # (REQUIRED) Netlify site URL
@@ -23,7 +19,6 @@ SITE_URL = "https://kimxinfo-netlifyobsidianlab.netlify.app/"
 # (Optional) Site Timezone
 TIMEZONE = "Asia/Hong_Kong"
 ZOLA_VERSION = "0.15.2"
-# (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
 SORT_BY = "title"
 # (Optional) Google Analytics Measurement ID
 GANALYTICS = ""
@@ -33,9 +28,9 @@ SLUGIFY = "y"
 HOME_GRAPH = "y"
 # (Optional, default true) Shows knowledge graph on every page. Put "" to disable.
 PAGE_GRAPH = "y"
-# (Optional, default false) Whether sidebar sections should be collapsed by default.
+# 左方選單是否展開
 SIDEBAR_COLLAPSED = ""
-# (Optional, default blank) Additional footer content.
+# 頁尾資訊
 FOOTER = ""
 # (Optional, default main) Root section name.
 ROOT_SECTION_NAME = "main"
@@ -74,24 +69,3 @@ GRAPH_OPTIONS = """
         	},
         }
         """
-
-[[plugins]]
-package = "netlify-plugin-submit-sitemap"
-
-[plugins.inputs]
-
-# The base url of your site (optional, default = main URL set in Netlify)
-baseUrl = "https://peteryuen.netlify.app/"
-
-# Path to the sitemap URL (optional, default = /sitemap.xml)
-sitemapPath = "/sitemap.xml"
-
-# Time in seconds to not submit the sitemap after successful submission
-ignorePeriod = 0
-
-# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
-providers = [
-  "google",
-  "bing",
-  "yandex",
-]
