@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Dashboard",
       "path": "60.Extra/60.Dashboard/Dashboard.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "R-2023-01-09 Robin分享小朱devOps簡報",
       "path": "50.Source/50.Article/R-2023-01-09 Robin分享小朱devOps簡報.md"
-    },
-    {
-      "basename": "C-好事多頂級牛排煎法",
-      "path": "30.Cards/37.Life/C-好事多頂級牛排煎法.md"
     }
   ],
   "omittedPaths": [

@@ -45,9 +45,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "27cc58e3134d09e3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "60.Extra/60.Dashboard/Dashboard.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "60.Extra/60.Dashboard/Dashboard.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60.Extra/60.Dashboard/Dashboard.md"
+                "file": "Home.md"
               }
             }
           },
@@ -372,7 +394,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "60.Extra/60.Dashboard/Dashboard.md",
+                "file": "Home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -428,14 +450,14 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "d3b57728bc2b0f7c",
+  "active": "27cc58e3134d09e3",
   "lastOpenFiles": [
+    "60.Extra/60.Dashboard/Dashboard.md",
     "10.Spaces/11.Work/S-2023-01-13 鑫空間明誠館-Metaage辨公室.md",
     "00.Inbox/R-2023-01-12 Obsidian Host Free.md",
     "50.Source/50.Article/R-2023-01-13 成長勢能-個體崛起時代的必殺技.md",
     "20.Calendar/24.YearlyNotes/2023 Metaage 記事.md",
     "50.Source/50.Article/R-2023-01-12 DataViewJs應用參考.md",
-    "60.Extra/60.Dashboard/Dashboard.md",
     "20.Calendar/21.DailyNotes/2023-01-13.md",
     "20.Calendar/22.WeeklyNotes/2023-W02.md",
     "20.Calendar/21.DailyNotes/2023-01-12.md",
