@@ -3,7 +3,7 @@ aliases : []
 created: 2023-01-13
 updated: 2023-01-13
 type: blog
-status: 🟥️
+status: 🟩
 publish: false
 ---
 ### Metadata
@@ -104,7 +104,6 @@ GRAPH_OPTIONS = """
         	},
         }
         """
-
 ```
 
 2. 使用Github註冊[Netlify](https://www.netlify.com/)，加入新網站，選擇匯入來源Github![upgit_20230113_1673594927.png](https://raw.githubusercontent.com/kimx/ObsidianAssets/master/2023/01/upgit_20230113_1673594927.png)
@@ -113,11 +112,15 @@ GRAPH_OPTIONS = """
 3. 簽入Github後，會觸發建置，成功後自動部署。![[Pasted image 20230113153610.png]]
 4. 檢視網站，點中間Button進入首頁![upgit_20230113_1673595449.png](https://raw.githubusercontent.com/kimx/ObsidianAssets/master/2023/01/upgit_20230113_1673595449.png)
 ![upgit_20230113_1673595512.png](https://raw.githubusercontent.com/kimx/ObsidianAssets/master/2023/01/upgit_20230113_1673595512.png)
-ps: 小小缺點，左方選單，只會有一層，所有子目錄，都會被拉到第一層。
+ps: 小小缺點，左方選單，只會有一層，所有子目錄，都會被拉到第一層，無法搜尋中文。
 
 # 總結
  - 透過這樣的方式，可以更快速、更方便管理Obsidian的分享筆記。
  - 可以在網頁上，使用大部分Obsidian的功能。
 
+# 其他
+- Netlify自訂Domain，[參考此篇](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/#configure-a-subdomain)，加一筆cname到dns。
+
 # 相關參考
 - [netlify 超佛心的靜態網站hosting服務](https://blog.alantsai.net/posts/2018/07/migrate-blog-to-ssg-demo-devops-8-netlify-free-static-site-hosting-service)
+- [此筆記的Github位置](https://github.com/kimx/NetlifyObsidianLab)
