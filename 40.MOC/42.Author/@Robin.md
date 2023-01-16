@@ -10,8 +10,7 @@ status: 🟩
 - Topics:: 
 
 # 基本資訊
-- Name:
-- Phone: 0970-184-090
+- Name: Robin LI
 - URL: https://note.robinks.net/
 - EMail:im@robinks.net
 	- robinli1973@gmail.com
